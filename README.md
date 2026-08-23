@@ -172,6 +172,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Heap (Priority Queue)
 |  |
@@ -211,6 +212,7 @@
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -222,4 +224,8 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 <!---LeetCode Topics End-->
