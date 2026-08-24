@@ -116,6 +116,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/kushagra1007/Leetcode-break/tree/master/0050-powx-n) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
@@ -144,6 +145,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/kushagra1007/Leetcode-break/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
@@ -208,6 +210,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
