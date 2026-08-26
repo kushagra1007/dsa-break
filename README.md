@@ -228,6 +228,7 @@
 | [0203-remove-linked-list-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0237-delete-node-in-a-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kushagra1007/Leetcode-break/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
