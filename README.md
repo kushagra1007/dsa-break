@@ -13,6 +13,7 @@
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
@@ -87,6 +88,7 @@
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -123,6 +125,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 ## Dynamic Programming
@@ -205,6 +208,7 @@
 | [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0138-copy-list-with-random-pointer](https://github.com/kushagra1007/Leetcode-break/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
+| [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 ## Dancing Links
 |  |
 | ------- |
@@ -228,6 +232,7 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
+| [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
