@@ -80,6 +80,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Matrix
@@ -186,6 +187,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
@@ -268,12 +270,14 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
