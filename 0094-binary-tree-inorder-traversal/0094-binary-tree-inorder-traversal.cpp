@@ -13,30 +13,40 @@
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> result;
-        stack<TreeNode*> st;
-
+        vector<int> ans;
         TreeNode* curr = root;
 
-        while (curr != NULL || !st.empty()) {
+        while (curr != NULL) {
 
-            // Go as far left as possible
-            while (curr != NULL) {
-                st.push(curr);
-                curr = curr->left;
+            if (curr->left == NULL) {
+                ans.push_back(curr->val);
+                curr = curr->right;
             }
 
-            // Process the node
-            curr = st.top();
-            st.pop();
+            else {
+                // Find the Inorder Predecessor
+                TreeNode* IP = curr->left;
 
-            result.push_back(curr->val);
+                while (IP->right != NULL && IP->right != curr) {
+                    IP = IP->right;
+                }
 
-            // Move to right subtree
-            curr = curr->right;
+                if (IP->right == NULL) {
+                    // Create thread
+                    IP->right = curr;
+                    curr = curr->left;
+                }
+
+                else {
+                    // Destroy thread
+                    IP->right = NULL;
+                    ans.push_back(curr->val);
+                    curr = curr->right;
+                }
+            }
         }
 
-        return result;
+        return ans;
     }
 };
 
