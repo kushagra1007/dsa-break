@@ -80,6 +80,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
@@ -188,6 +189,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
@@ -272,6 +274,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
@@ -280,6 +283,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
