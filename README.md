@@ -16,6 +16,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
+| [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1480-running-sum-of-1d-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1480-running-sum-of-1d-array) |
@@ -39,6 +40,7 @@
 | [0146-lru-cache](https://github.com/kushagra1007/Leetcode-break/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
+| [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
@@ -228,6 +230,7 @@
 | [0146-lru-cache](https://github.com/kushagra1007/Leetcode-break/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0160-intersection-of-two-linked-lists) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 ## Dancing Links
 |  |
 | ------- |
@@ -251,6 +254,7 @@
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0237-delete-node-in-a-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kushagra1007/Leetcode-break/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Two Pointers
@@ -299,4 +303,8 @@
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0543-diameter-of-binary-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
