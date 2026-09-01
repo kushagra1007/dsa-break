@@ -11,20 +11,40 @@
  */
 class Solution {
 public:
-    void sideView(TreeNode *node, int level,vector<int> &ans){
-        if(node == NULL){
-            return;
-        }
-        if(level == ans.size()){
-            ans.push_back(node->val);
-        }
-        sideView(node->right,level+1,ans);
-        sideView(node->left,level+1,ans);
-
-    }
     vector<int> rightSideView(TreeNode* root) {
+        
         vector<int> ans;
-        sideView(root,0,ans);
+        
+        if (root == NULL)
+            return ans;
+        
+        queue<TreeNode*> q;
+        q.push(root);
+        
+        while (!q.empty()) {
+            
+            int size = q.size();
+            
+            for (int i = 0; i < size; i++) {
+                
+                TreeNode* curr = q.front();
+                q.pop();
+                
+                // Last node of current level
+                if (i == size - 1) {
+                    ans.push_back(curr->val);
+                }
+                
+                if (curr->left != NULL) {
+                    q.push(curr->left);
+                }
+                
+                if (curr->right != NULL) {
+                    q.push(curr->right);
+                }
+            }
+        }
+        
         return ans;
     }
 };
