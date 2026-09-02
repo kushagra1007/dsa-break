@@ -9,25 +9,35 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
-    int ans;
-    int maxDepth = -1;
-    void leftMost(TreeNode* node,int height){
-        if(node == NULL){
-            return;
-        }
-        if(height>maxDepth){
-            maxDepth = height;
-            ans = node->val;
-        }
-        leftMost(node->left,height+1);
-        leftMost(node->right,height+1);
-
-    }
     int findBottomLeftValue(TreeNode* root) {
-        leftMost(root,0);
+        queue<TreeNode*> q;
+        q.push(root);
+
+        int ans = root->val;
+
+        while (!q.empty()) {
+            int n = q.size();
+
+            for (int i = 0; i < n; i++) {
+                TreeNode* node = q.front();
+                q.pop();
+
+                // First node of this level
+                if (i == 0)
+                    ans = node->val;
+
+                if (node->left)
+                    q.push(node->left);
+
+                if (node->right)
+                    q.push(node->right);
+            }
+        }
+
         return ans;
     }
-    
 };
+
