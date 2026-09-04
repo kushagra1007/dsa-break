@@ -11,18 +11,23 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root, int &sum){
-        if(root == NULL){
+    void inorder(TreeNode* root, int& sum) {
+        if (root == nullptr) {
             return;
         }
-        solve(root->right,sum);
+
+        // Reverse inorder: Right -> Root -> Left
+        inorder(root->right, sum);
+
         sum += root->val;
         root->val = sum;
-        solve(root->left,sum);
+
+        inorder(root->left, sum);
     }
+
     TreeNode* bstToGst(TreeNode* root) {
         int sum = 0;
-        solve(root,sum);
+        inorder(root, sum);
         return root;
     }
 };
