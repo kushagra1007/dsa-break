@@ -11,23 +11,36 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root, int& sum) {
-        if (root == nullptr) {
+    void storeInorder(TreeNode* root, vector<int>& arr) {
+        if (root == nullptr)
             return;
-        }
 
-        // Reverse inorder: Right -> Root -> Left
-        inorder(root->right, sum);
+        storeInorder(root->left, arr);
+        arr.push_back(root->val);
+        storeInorder(root->right, arr);
+    }
 
-        sum += root->val;
-        root->val = sum;
+    void updateTree(TreeNode* root, vector<int>& arr, int& index) {
+        if (root == nullptr)
+            return;
 
-        inorder(root->left, sum);
+        updateTree(root->left, arr, index);
+
+        root->val = arr[index];
+        index++;
+
+        updateTree(root->right, arr, index);
     }
 
     TreeNode* bstToGst(TreeNode* root) {
-        int sum = 0;
-        inorder(root, sum);
+        vector<int> arr;
+        storeInorder(root, arr);
+        for (int i = arr.size() - 2; i >= 0; i--) {
+            arr[i] += arr[i + 1];
+        }
+        int index = 0;
+        updateTree(root, arr, index);
+
         return root;
     }
 };
