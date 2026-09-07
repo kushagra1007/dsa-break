@@ -26,11 +26,8 @@ public:
             int size = q.size();
             
             for (int i = 0; i < size; i++) {
-                
                 TreeNode* curr = q.front();
                 q.pop();
-                
-                // Last node of current level
                 if (i == size - 1) {
                     ans.push_back(curr->val);
                 }
