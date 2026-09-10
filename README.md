@@ -55,6 +55,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
@@ -205,6 +206,7 @@
 | [0100-same-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0110-balanced-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/kushagra1007/Leetcode-break/tree/master/0199-binary-tree-right-side-view) |
@@ -265,6 +267,7 @@
 | [0061-rotate-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0092-reverse-linked-list-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0092-reverse-linked-list-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/kushagra1007/Leetcode-break/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/kushagra1007/Leetcode-break/tree/master/0146-lru-cache) |
@@ -305,6 +308,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0110-balanced-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/kushagra1007/Leetcode-break/tree/master/0199-binary-tree-right-side-view) |
@@ -325,6 +329,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0110-balanced-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/kushagra1007/Leetcode-break/tree/master/0199-binary-tree-right-side-view) |
