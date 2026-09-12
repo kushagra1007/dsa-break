@@ -11,30 +11,38 @@
  */
 class Solution {
 public:
-
-    void solve(TreeNode* root, int level, vector<vector<int>>& ans) {
-
-        if (root == NULL)
-            return;
-
-        if (level == ans.size())
-            ans.push_back({});
-
-        if (level % 2 == 0)
-            ans[level].push_back(root->val);
-        else
-            ans[level].insert(ans[level].begin(), root->val);
-
-        solve(root->left, level + 1, ans);
-        solve(root->right, level + 1, ans);
-    }
-
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-
         vector<vector<int>> ans;
+        if(root == NULL){
+            return ans;
+        }
+        queue<TreeNode*> q;
+        q.push(root);
+        bool leftToRight = true;
+        
+        while(!q.empty()){
+            int n = q.size();
+            vector<int> level(n);
+            for(int i=0;i<n;i++){
+                TreeNode* node = q.front();
+                q.pop();
+                int index;
+                if(leftToRight){
+                    index = i;
+                }
+                else{
+                    index = n-i-1;
+                }
+                level[index] = node->val;
+                if (node->left)
+                    q.push(node->left);
 
-        solve(root, 0, ans);
-
+                if (node->right)
+                    q.push(node->right);
+            }
+            ans.push_back(level);
+            leftToRight = !leftToRight;
+        }
         return ans;
     }
 };
