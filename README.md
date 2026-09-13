@@ -46,6 +46,7 @@
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Data Stream
 |  |
 | ------- |
@@ -96,6 +97,7 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Matrix
 |  |
@@ -109,6 +111,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0004-median-of-two-sorted-arrays) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -158,6 +161,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Brainteaser
 |  |
 | ------- |
@@ -198,6 +202,7 @@
 | ------- |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## String
 |  |
 | ------- |
@@ -223,6 +228,7 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Heap (Priority Queue)
 |  |
@@ -327,6 +333,7 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Binary Tree
 |  |
 | ------- |
@@ -374,6 +381,7 @@
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Lowest Common Ancestor
 |  |
 | ------- |
