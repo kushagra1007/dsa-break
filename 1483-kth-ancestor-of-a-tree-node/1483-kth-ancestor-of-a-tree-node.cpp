@@ -1,45 +1,31 @@
 class TreeAncestor {
 public:
-    vector<vector<int>> ancestorTable;
-    int rows;
-    int cols;
+    vector<vector<int>> up;
+    int LOG;
 
     TreeAncestor(int n, vector<int>& parent) {
-        rows = n;
-        cols = log2(n) + 1;
+        LOG = 20;   
+        up.resize(n, vector<int>(LOG, -1));
 
-        ancestorTable.resize(rows, vector<int>(cols, -1));
-
-        // 1st ancestor
-        for (int node = 0; node < n; node++) {
-            ancestorTable[node][0] = parent[node];
+        for (int i = 0; i < n; i++) {
+            up[i][0] = parent[i];
         }
 
-        // 2^j-th ancestor
-        for (int j = 1; j < cols; j++) {
-            for (int node = 0; node < n; node++) {
-
-                int prevAncestor = ancestorTable[node][j - 1];
-
-                if (prevAncestor != -1) {
-                    ancestorTable[node][j] =
-                        ancestorTable[prevAncestor][j - 1];
-                }
+        for (int j = 1; j < LOG; j++) {
+            for (int i = 0; i < n; i++) {
+                if (up[i][j - 1] != -1)
+                    up[i][j] = up[up[i][j - 1]][j - 1];
             }
         }
     }
 
     int getKthAncestor(int node, int k) {
-
-        for (int j = 0; j < cols; j++) {
-
+        for (int j = 0; j < LOG; j++) {
             if (k & (1 << j)) {
+                node = up[node][j];
 
-                node = ancestorTable[node][j];
-
-                if (node == -1) {
+                if (node == -1)
                     return -1;
-                }
             }
         }
 
