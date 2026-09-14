@@ -1,24 +1,28 @@
 class KthLargest {
 public:
-    int K; 
-    priority_queue<int,vector<int>,greater<int>> pq;
+    int K;
+    multiset<int> st;
+
     KthLargest(int k, vector<int>& nums) {
-        // min heap
         K = k;
-        for(int &num : nums){
-            pq.push(num);
-            if(pq.size()>k){
-                pq.pop(); 
+
+        for (int num : nums) {
+            st.insert(num);
+
+            if (st.size() > K) {
+                st.erase(st.begin());  // remove smallest
             }
         }
     }
-    
+
     int add(int val) {
-        pq.push(val);
-        if(pq.size() > K){
-            pq.pop();
+        st.insert(val);
+
+        if (st.size() > K) {
+            st.erase(st.begin());
         }
-        return pq.top();
+
+        return *st.begin();
     }
 };
 
