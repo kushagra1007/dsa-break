@@ -11,21 +11,14 @@
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
-        vector<int> bits;
-
-        while (head != NULL) {
-            bits.push_back(head->val);
-            head = head->next;
-        }
-
         int ans = 0;
-        int power = 1;  
 
-        for (int i = bits.size() - 1; i >= 0; i--) {
-            ans += bits[i] * power;
-            power *= 2;
+        while(head != NULL){
+            ans = ans*2 + head->val;
+            head = head->next; 
         }
-
         return ans;
+        
+
     }
 };
