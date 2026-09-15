@@ -11,16 +11,28 @@
  */
 class Solution {
 public:
-    bool solver(TreeNode* node,long long minVal,long long maxVal){
-        if(node == NULL){
+    TreeNode* prev = NULL;
+
+    bool inorder(TreeNode* root) {
+        if (root == NULL) {
             return true;
         }
-        if(node->val <= minVal || node->val >= maxVal){
+        if (!inorder(root->left)) {
             return false;
         }
-        return solver(node->left,minVal,node->val) && solver(node->right,node->val,maxVal);
+        if (prev != NULL && root->val <= prev->val) {
+            return false;
+        }
+
+        prev = root;
+        if (!inorder(root->right)) {
+            return false;
+        }
+
+        return true;
     }
+
     bool isValidBST(TreeNode* root) {
-        return solver(root,LLONG_MIN,LLONG_MAX);
+        return inorder(root);
     }
 };
