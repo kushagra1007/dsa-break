@@ -11,28 +11,21 @@
  */
 class Solution {
 public:
-    TreeNode* prev = NULL;
-
-    bool inorder(TreeNode* root) {
-        if (root == NULL) {
+    bool helper(TreeNode* root, TreeNode* min, TreeNode* max){
+        if(root == NULL) {
             return true;
-        }
-        if (!inorder(root->left)) {
-            return false;
-        }
-        if (prev != NULL && root->val <= prev->val) {
-            return false;
+
         }
 
-        prev = root;
-        if (!inorder(root->right)) {
+        if(min != NULL && root->val <= min->val) {
             return false;
         }
-
-        return true;
-    }
-
+        if(max != NULL && root->val >= max->val) {
+            return false;
+        }
+        return helper(root->left, min,root)&&helper(root->right,root,max);
+}
     bool isValidBST(TreeNode* root) {
-        return inorder(root);
+       return helper(root,NULL,NULL); 
     }
 };
