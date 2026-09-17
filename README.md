@@ -22,6 +22,7 @@
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1480-running-sum-of-1d-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1480-running-sum-of-1d-array) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
@@ -66,12 +67,14 @@
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 ## Prefix Sum
 |  |
@@ -349,6 +352,7 @@
 | [0700-search-in-a-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0700-search-in-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -382,6 +386,7 @@
 | [0700-search-in-a-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0700-search-in-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Binary Search Tree
@@ -395,6 +400,7 @@
 | [0700-search-in-a-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0700-search-in-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 ## DP on Trees
 |  |
