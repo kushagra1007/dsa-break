@@ -10,31 +10,34 @@
  * };
  */
 class BSTIterator {
-private:
-    vector<int> arr; 
-    int i = -1;
-    void inorder(TreeNode* root) {
-        if (root == nullptr) return;
-        inorder(root->left);
-        arr.push_back(root->val);
-        inorder(root->right);
-    }
+    stack<TreeNode*> st;
 
 public:
     BSTIterator(TreeNode* root) {
-        inorder(root);
+        pushLeft(root);
     }
-    
+
+    void pushLeft(TreeNode* node) {
+        while (node != nullptr) {
+            st.push(node);
+            node = node->left;
+        }
+    }
+
     int next() {
-        i++;
-        return arr[i];
+        TreeNode* node = st.top();
+        st.pop();
+
+        // Process right subtree
+        pushLeft(node->right);
+
+        return node->val;
     }
-    
+
     bool hasNext() {
-        return (i + 1 < arr.size());
+        return !st.empty();
     }
 };
-
 
 /**
  * Your BSTIterator object will be instantiated and called as such:
