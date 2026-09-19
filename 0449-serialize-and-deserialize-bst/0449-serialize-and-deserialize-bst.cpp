@@ -9,44 +9,42 @@
  */
 class Codec {
 public:
-    void preorder(TreeNode* root, string& s) {
-        if (!root){
+
+    void serializeHelper(TreeNode* root, string& s) {
+        if (!root) {
+            s += "# ";
             return;
         }
+
         s += to_string(root->val) + " ";
 
-        preorder(root->left, s);
-        preorder(root->right, s);
+        serializeHelper(root->left, s);
+        serializeHelper(root->right, s);
     }
 
     string serialize(TreeNode* root) {
         string s;
-        preorder(root, s);
+        serializeHelper(root, s);
         return s;
     }
 
-    TreeNode* build(vector<int>& v, int& i, int low, int high) {
-        if (i == v.size() || v[i] < low || v[i] > high){
-            return NULL;
-        }
-        TreeNode* root = new TreeNode(v[i++]);
+    TreeNode* deserializeHelper(stringstream& ss) {
+        string x;
+        ss >> x;
 
-        root->left = build(v, i, low, root->val);
-        root->right = build(v, i, root->val, high);
+        if (x == "#")
+            return NULL;
+
+        TreeNode* root = new TreeNode(stoi(x));
+
+        root->left = deserializeHelper(ss);
+        root->right = deserializeHelper(ss);
 
         return root;
     }
-
     TreeNode* deserialize(string data) {
         stringstream ss(data);
-        vector<int> v;
-        int x;
-
-        while (ss >> x){
-            v.push_back(x);
-        }
-        int i = 0;
-        return build(v, i, INT_MIN, INT_MAX);
+        return deserializeHelper(ss);
     }
 };
 
