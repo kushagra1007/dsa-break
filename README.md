@@ -105,6 +105,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/kushagra1007/Leetcode-break/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/kushagra1007/Leetcode-break/tree/master/0513-find-bottom-left-tree-value) |
+| [0617-merge-two-binary-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
@@ -245,6 +246,7 @@
 | [0513-find-bottom-left-tree-value](https://github.com/kushagra1007/Leetcode-break/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0572-subtree-of-another-tree) |
+| [0617-merge-two-binary-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
@@ -361,6 +363,7 @@
 | [0513-find-bottom-left-tree-value](https://github.com/kushagra1007/Leetcode-break/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0572-subtree-of-another-tree) |
+| [0617-merge-two-binary-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0700-search-in-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -398,6 +401,7 @@
 | [0513-find-bottom-left-tree-value](https://github.com/kushagra1007/Leetcode-break/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0572-subtree-of-another-tree) |
+| [0617-merge-two-binary-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0700-search-in-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
