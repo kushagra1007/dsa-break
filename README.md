@@ -174,6 +174,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Brainteaser
 |  |
@@ -251,6 +252,7 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Heap (Priority Queue)
@@ -371,6 +373,7 @@
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Binary Tree
 |  |
@@ -409,6 +412,7 @@
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -424,11 +428,13 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## DP on Trees
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0543-diameter-of-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Hash Function
 |  |
 | ------- |
