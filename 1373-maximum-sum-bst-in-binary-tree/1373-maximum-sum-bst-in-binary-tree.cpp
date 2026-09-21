@@ -11,53 +11,30 @@
  */
 class Solution {
 public:
-    unordered_map<TreeNode*, int> mn, mx, sum;
-    unordered_map<TreeNode*, bool> bst;
-
+    struct Info{
+        bool isBST;
+        int minVal;
+        int maxVal;
+        int sum;
+    };
     int ans = 0;
-
-    void dfs(TreeNode* root) {
-        if (root == NULL)
-            return;
-
-        dfs(root->left);
-        dfs(root->right);
-
-        // Initially assume current subtree is BST
-        bst[root] = true;
-
-        // Check left subtree
-        if (root->left != NULL) {
-            if (!bst[root->left] || mx[root->left] >= root->val) {
-                bst[root] = false;
-            }
+    Info solve(TreeNode* root){
+        if(root == NULL){
+            return {true,INT_MAX,INT_MIN,0};
         }
-
-        // Check right subtree
-        if (root->right != NULL) {
-            if (!bst[root->right] || mn[root->right] <= root->val) {
-                bst[root] = false;
-            }
+        Info left = solve(root->left);
+        Info right = solve(root->right);
+        if(left.isBST && right.isBST && left.maxVal < root->val && root->val < right.minVal){
+            int sum = left.sum + right.sum + root->val;
+            ans = max(ans,sum);
+            int minVal = min(root->val,left.minVal);
+            int maxVal = max(root->val,right.maxVal);
+            return {true,minVal,maxVal,sum};
         }
-
-        if (bst[root]) {
-            mn[root] = root->left ? mn[root->left] : root->val;
-            mx[root] = root->right ? mx[root->right] : root->val;
-
-            sum[root] = root->val;
-
-            if (root->left)
-                sum[root] += sum[root->left];
-
-            if (root->right)
-                sum[root] += sum[root->right];
-
-            ans = max(ans, sum[root]);
-        }
+        return {false,0,0,0};
     }
-
     int maxSumBST(TreeNode* root) {
-        dfs(root);
+        solve(root);
         return ans;
     }
 };
