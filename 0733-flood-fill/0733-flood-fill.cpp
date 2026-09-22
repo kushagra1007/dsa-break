@@ -1,17 +1,43 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& image, int i, int j, int newColor,int orgColor){
-        if(i<0 || j<0 || i>= image.size() || j>= image[0].size() || image[i][j] == newColor || image[i][j] !=  orgColor){
-            return;
-        }
-        image[i][j] = newColor;
-        dfs(image, i-1, j, newColor, orgColor); //top
-        dfs(image, i, j+1, newColor, orgColor); //right
-        dfs(image, i+1, j, newColor, orgColor); //bottom
-        dfs(image, i, j-1, newColor, orgColor); //left
-    }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        dfs(image,sr,sc,color,image[sr][sc]);
+
+        int orgColor = image[sr][sc];
+        
+        if (orgColor == color)
+            return image;
+        
+        int m = image.size();
+        int n = image[0].size();
+        
+        queue<pair<int, int>> q;
+        q.push({sr, sc});
+        
+        image[sr][sc] = color;
+        
+        int dx[] = {-1, 0, 1, 0};
+        int dy[] = {0, 1, 0, -1};
+        
+        while (!q.empty()) {
+            
+            int i = q.front().first;
+            int j = q.front().second;
+            q.pop();
+            
+            for (int k = 0; k < 4; k++) {
+                
+                int ni = i + dx[k];
+                int nj = j + dy[k];
+                
+                if (ni >= 0 && nj >= 0 && ni < m && nj < n &&
+                    image[ni][nj] == orgColor) {
+                    
+                    image[ni][nj] = color;
+                    q.push({ni, nj});
+                }
+            }
+        }
+        
         return image;
     }
 };
