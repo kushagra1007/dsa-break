@@ -23,18 +23,31 @@ class Solution {
 public:
     unordered_map<Node*,Node*> mp;
 
-    void DFS(Node* node,Node* clone_node){
-        for(Node* n : node->neighbors){
-            if(mp.find(n) == mp.end()){
+    void BFS(queue<Node*> &que) {
+
+        while(!que.empty()) {
+
+            Node* node = que.front();
+            Node* clone_node = mp[node];
+            que.pop();
+
+            for(Node* n : node->neighbors) {
+
+                if(mp.find(n) == mp.end()) {
+
                 Node* clone = new Node(n->val);
                 mp[n] = clone;
                 clone_node->neighbors.push_back(clone);
-                DFS(n,clone);
-            } else{
+
+                // BFS(n,clone);
+                que.push(n);
+
+            } else {
                 clone_node->neighbors.push_back(mp[n]);
             }
         }
     }
+}
     Node* cloneGraph(Node* node) {
         if(node == NULL)
             return NULL;
@@ -42,7 +55,10 @@ public:
         mp.clear();
         Node *clone_node = new Node(node->val);
         mp[node] = clone_node;
-        DFS(node,clone_node);
+
+        queue<Node*> que;
+        que.push(node);
+        BFS(que);
 
         return clone_node;
     }
