@@ -1,18 +1,27 @@
 class Solution {
 public:
 
-    bool dfs(int src, int par, vector<vector<int>>& graph, vector<int>& vis) {
+    bool bfs(int src, vector<vector<int>>& graph, vector<int>& vis) {
+
+        queue<pair<int, int>> q;
+
+        q.push({src, -1});
         vis[src] = true;
 
-        for (int v : graph[src]) {
+        while (!q.empty()) {
 
-            if (vis[v]) {
-                if (v != par)
+            auto [node, parent] = q.front();
+            q.pop();
+
+            for (int neighbour : graph[node]) {
+
+                if (!vis[neighbour]) {
+                    q.push({neighbour, node});
+                    vis[neighbour] = true;
+                }
+                else if (neighbour != parent) {
                     return true;
-            }
-            else {
-                if (dfs(v, src, graph, vis))
-                    return true;
+                }
             }
         }
 
@@ -33,7 +42,7 @@ public:
             graph[v].push_back(u);
 
             vector<int> vis(n + 1, false);
-            if (dfs(u, -1, graph, vis))
+            if (bfs(u, graph, vis))
                 return edge;
         }
 
