@@ -109,6 +109,7 @@
 | [0513-find-bottom-left-tree-value](https://github.com/kushagra1007/Leetcode-break/tree/master/0513-find-bottom-left-tree-value) |
 | [0617-merge-two-binary-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
@@ -254,6 +255,7 @@
 | [0572-subtree-of-another-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
@@ -470,4 +472,9 @@
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/kushagra1007/Leetcode-break/tree/master/0133-clone-graph) |
+| [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
+## Union-Find
+|  |
+| ------- |
+| [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 <!---LeetCode Topics End-->
