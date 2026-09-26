@@ -1,55 +1,50 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int rows = grid.size();
-        int cols = grid[0].size();
-        queue<pair<int,int>> q;
-        int freshCount = 0;
-
-        // Step 1: find all initially rotten oranges and count fresh ones
-        for (int r = 0; r < rows; r++) {
-            for (int c = 0; c < cols; c++) {
-                if (grid[r][c] == 2) {
-                    q.push({r, c});
-                } else if (grid[r][c] == 1) {
-                    freshCount++;
+        int n = grid.size();
+        int m = grid[0].size();
+        queue<pair<pair<int,int>,int>>q;
+        int vis[n][m];
+        int cntFresh = 0;
+        for(int i = 0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(grid[i][j] == 2){
+                    q.push({{i,j},0});
+                    vis[i][j] = 2;
+                }
+                else{
+                    vis[i][j] = 0;
+                    if(grid[i][j] == 1) cntFresh ++;
                 }
             }
-        }
+        }    
+        int tm = 0;
+        int drow[] = {-1, 0, +1, 0};
+        int dcol[] = {0, 1, 0, -1};
+        int cnt = 0;
+        while(!q.empty()){
+            int r = q.front().first.first;
+            int c = q.front().first.second;
+            int t = q.front().second;
+            tm = max(tm,t);
+            q.pop();
 
-        // Step 2: no fresh oranges means 0 minutes needed
-        if (freshCount == 0) return 0;
+            for(int i=0;i<4;i++){
+                int nrow = r+drow[i];
+                int ncol = c+dcol[i];
 
-        int minutes = 0;
-        vector<int> dr = {-1, 1, 0, 0};
-        vector<int> dc = {0, 0, -1, 1};
-
-        // Step 3: multi-source BFS, level by level
-        while (!q.empty()) {
-            int size = q.size();
-            bool rottedThisRound = false;
-
-            for (int i = 0; i < size; i++) {
-                auto [row, col] = q.front();
-                q.pop();
-
-                for (int d = 0; d < 4; d++) {
-                    int nr = row + dr[d];
-                    int nc = col + dc[d];
-
-                    if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[nr][nc] == 1) {
-                        grid[nr][nc] = 2;
-                        freshCount--;
-                        rottedThisRound = true;
-                        q.push({nr, nc});
-                    }
+                if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m &&
+                    vis[nrow][ncol] == 0 && grid[nrow][ncol] == 1) {
+                    q.push({{nrow, ncol}, t + 1});
+                    vis[nrow][ncol] = 2;
+                    cnt++;
                 }
+            
             }
 
-            if (rottedThisRound) minutes++;
         }
+        if (cnt != cntFresh) return -1;
 
-        // Step 4: check if any fresh orange never rotted
-        return freshCount == 0 ? minutes : -1;
+        return tm;
     }
 };
