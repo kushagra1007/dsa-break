@@ -1,34 +1,39 @@
 class Solution {
 public:
-    bool isCycleDFS(int src,vector<bool> &vis,vector<bool> &recPath,vector<vector<int>> &edges){
-        vis[src] = true;
-        recPath[src] = true;
-        for(int i=0;i<edges.size();i++){
-            int v = edges[i][0];
-            int u = edges[i][1];
-            if(u == src){
-                if(!vis[v]){
-                    if(isCycleDFS(v,vis,recPath,edges)){
-                        return true;
-                    }
-                } else if(recPath[v]){
-                    return true;
-                }
-            }
-        }
-        recPath[src] = false;
-        return false;
-    }
     bool canFinish(int n, vector<vector<int>>& prerequisites) {
-        vector<bool> vis(n,false);
-        vector<bool> recPath(n,false);
-        for(int i=0;i<n;i++){
-            if(!vis[i]){
-                if(isCycleDFS(i,vis,recPath,prerequisites)){
-                    return false;
+        
+        vector<vector<int>> adj(n);
+        vector<int> indegree(n, 0);
+        for(auto edge : prerequisites) {
+            int course = edge[0];
+            int prerequisite = edge[1];
+
+            adj[prerequisite].push_back(course);
+            indegree[course]++;
+        }
+
+        queue<int> q;
+        for(int i = 0; i < n; i++) {
+            if(indegree[i] == 0) {
+                q.push(i);
+            }
+        }
+
+        int count = 0;
+        while(!q.empty()) {
+            int u = q.front();
+            q.pop();
+
+            count++;
+
+            for(int v : adj[u]) {
+                indegree[v]--;
+
+                if(indegree[v] == 0) {
+                    q.push(v);
                 }
             }
         }
-        return true;
+        return count == n;
     }
 };
