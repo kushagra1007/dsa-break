@@ -1,66 +1,46 @@
 class Solution {
 public:
-    bool isCycleDFS(int src,vector<bool> &vis,vector<bool> &recPath,vector<vector<int>>&edges){
-        vis[src] = true;
-        recPath[src] = true;
-
-        for(int i=0;i<edges.size();i++){
-            int v = edges[i][0];
-            int u = edges[i][1];
-            
-            if(u == src){
-                if(!vis[v]){
-                    if(isCycleDFS(v,vis,recPath,edges)){
-                        return true;
-                    } 
-                } else if(recPath[v]){
-                        return true;
-                }
-            }
-        }
-        recPath[src] = false;
-        return false;
-    }
-
-    void topoOrder(int src,vector<bool> &vis,stack<int> &s,vector<vector<int>>& edges){
-        vis[src] = true;
-        
-        for(int i=0;i<edges.size();i++){
-            int v = edges[i][0];
-            int u = edges[i][1];
-            if(u == src){
-                if(!vis[v]){
-                    topoOrder(v,vis,s,edges);
-                }
-            }
-        }
-        s.push(src);
-    }
-
     vector<int> findOrder(int n, vector<vector<int>>& prerequisites) {
-        vector<bool> vis(n,false);
-        vector<bool>recPath(n,false);
 
-        vector<int>ans;
+        vector<vector<int>> adj(n);
+        vector<int> indegree(n, 0);
 
-        for(int i=0;i<n;i++){
-            if(!vis[i]){
-                if(isCycleDFS(i,vis,recPath,prerequisites)){
-                    return ans;
+        for(int i = 0; i < prerequisites.size(); i++) {
+
+            int course = prerequisites[i][0];
+            int prerequisite = prerequisites[i][1];
+            adj[prerequisite].push_back(course);
+
+            indegree[course]++;
+        }
+        queue<int> q;
+
+        for(int i = 0; i < n; i++) {
+            if(indegree[i] == 0) {
+                q.push(i);
+            }
+        }
+
+        vector<int> ans;
+
+        while(!q.empty()) {
+
+            int src = q.front();
+            q.pop();
+
+            ans.push_back(src);
+
+            for(int v : adj[src]) {
+
+                indegree[v]--;
+                if(indegree[v] == 0) {
+                    q.push(v);
                 }
             }
         }
-        stack<int>s;
-        vis.assign(n,false);
-        for(int i=0;i<n;i++){
-            if(!vis[i]){
-                topoOrder(i,vis,s,prerequisites);
-            }
+        if(ans.size() == n) {
+            return ans;
         }
-        while(!s.empty()){
-            ans.push_back(s.top());
-            s.pop();
-        }
-        return ans;
+        return {};
     }
 };
