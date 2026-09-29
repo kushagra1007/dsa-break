@@ -121,6 +121,7 @@
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -190,6 +191,7 @@
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -275,6 +277,7 @@
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -285,6 +288,7 @@
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -495,6 +499,7 @@
 | [0210-course-schedule-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0310-minimum-height-trees) |
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 ## Union-Find
 |  |
@@ -516,4 +521,8 @@
 |  |
 | ------- |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
