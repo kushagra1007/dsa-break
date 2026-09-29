@@ -25,6 +25,7 @@
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1480-running-sum-of-1d-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1480-running-sum-of-1d-array) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/kushagra1007/Leetcode-break/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
@@ -97,6 +98,7 @@
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -315,6 +317,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0160-intersection-of-two-linked-lists) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 ## Dancing Links
 |  |
 | ------- |
