@@ -1,40 +1,53 @@
 class Solution {
 public:
-    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        vector<pair<int,int>> graph[n]; // u in v and wt
 
-        for(int i=0;i<flights.size();i++){
-            int u = flights[i][0];
-            int v = flights[i][1];
-            int wt = flights[i][2];
+    int dfs(int u, int dst, int flightsLeft,
+            vector<pair<int,int>> graph[],
+            vector<vector<int>>& dp) {
 
-            graph[u].push_back({v,wt});
+        if(u == dst)
+            return 0;
+
+        if(flightsLeft == 0)
+            return 1e9;
+
+        if(dp[u][flightsLeft] != -1)
+            return dp[u][flightsLeft];
+
+        int ans = 1e9;
+
+        for(auto edge : graph[u]) {
+
+            int v = edge.first;
+            int wt = edge.second;
+
+            int cost = dfs(v, dst, flightsLeft - 1, graph, dp);
+
+            if(cost != 1e9)
+                ans = min(ans, wt + cost);
         }
-        queue<pair<int,pair<int,int>>> q; // node,(cost,stops)
-        vector<int> dist(n,INT_MAX);
 
-        dist[src] = 0;
-        q.push({src,{0,-1}});
-        while(q.size()>0){
-            auto val = q.front();
-            int u = val.first;
-            int cost = val.second.first;
-            int stops = val.second.second;
+        return dp[u][flightsLeft] = ans;
+    }
 
-            q.pop();
-            for(auto edge : graph[u]){
-                int v = edge.first;
-                int wt = edge.second;
+    int findCheapestPrice(int n, vector<vector<int>>& flights,
+                          int src, int dst, int k) {
 
-                if(cost + wt < dist[v] && stops + 1 <= k){
-                    dist[v] = cost + wt;
-                    q.push({v,{dist[v],stops + 1}});
-                }
-            }
+        vector<pair<int,int>> graph[n];
+
+        for(auto flight : flights) {
+
+            int u = flight[0];
+            int v = flight[1];
+            int wt = flight[2];
+
+            graph[u].push_back({v, wt});
         }
-        if(dist[dst] == INT_MAX){
-            return -1;
-        }
-        return dist[dst];
+
+        vector<vector<int>> dp(n, vector<int>(k + 2, -1));
+
+        int ans = dfs(src, dst, k + 1, graph, dp);
+
+        return ans == 1e9 ? -1 : ans;
     }
 };
