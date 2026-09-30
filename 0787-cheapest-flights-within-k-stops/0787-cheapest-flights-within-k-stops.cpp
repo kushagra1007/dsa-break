@@ -1,53 +1,30 @@
 class Solution {
 public:
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
 
-    int dfs(int u, int dst, int flightsLeft,
-            vector<pair<int,int>> graph[],
-            vector<vector<int>>& dp) {
+        vector<int> dist(n, INT_MAX);
+        dist[src] = 0;
+        for(int i = 0; i <= k; i++) {
 
-        if(u == dst)
-            return 0;
+            vector<int> temp = dist;
 
-        if(flightsLeft == 0)
-            return 1e9;
+            for(auto flight : flights) {
 
-        if(dp[u][flightsLeft] != -1)
-            return dp[u][flightsLeft];
+                int u = flight[0];
+                int v = flight[1];
+                int wt = flight[2];
 
-        int ans = 1e9;
+                if(dist[u] != INT_MAX && dist[u] + wt < temp[v]) {
+                    temp[v] = dist[u] + wt;
+                }
+            }
 
-        for(auto edge : graph[u]) {
-
-            int v = edge.first;
-            int wt = edge.second;
-
-            int cost = dfs(v, dst, flightsLeft - 1, graph, dp);
-
-            if(cost != 1e9)
-                ans = min(ans, wt + cost);
+            dist = temp;
         }
 
-        return dp[u][flightsLeft] = ans;
-    }
+        if(dist[dst] == INT_MAX)
+            return -1;
 
-    int findCheapestPrice(int n, vector<vector<int>>& flights,
-                          int src, int dst, int k) {
-
-        vector<pair<int,int>> graph[n];
-
-        for(auto flight : flights) {
-
-            int u = flight[0];
-            int v = flight[1];
-            int wt = flight[2];
-
-            graph[u].push_back({v, wt});
-        }
-
-        vector<vector<int>> dp(n, vector<int>(k + 2, -1));
-
-        int ans = dfs(src, dst, k + 1, graph, dp);
-
-        return ans == 1e9 ? -1 : ans;
+        return dist[dst];
     }
 };
