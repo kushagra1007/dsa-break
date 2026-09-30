@@ -120,6 +120,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
@@ -276,6 +277,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/kushagra1007/Leetcode-break/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
@@ -288,6 +290,7 @@
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 ## Bucket Sort
@@ -499,6 +502,7 @@
 | [0210-course-schedule-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0310-minimum-height-trees) |
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 ## Union-Find
@@ -520,9 +524,11 @@
 ## Dijkstra's Algorithm
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
