@@ -191,6 +191,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -509,6 +510,7 @@
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 ## Union-Find
@@ -517,6 +519,7 @@
 | [0130-surrounded-regions](https://github.com/kushagra1007/Leetcode-break/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/kushagra1007/Leetcode-break/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
@@ -542,17 +545,25 @@
 ## Minimum Spanning Tree
 |  |
 | ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 ## Prim's Algorithm
 |  |
 | ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 ## Kruskal's Algorithm
 |  |
 | ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 ## Borůvka's Algorithm
 |  |
 | ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 <!---LeetCode Topics End-->
