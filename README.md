@@ -28,6 +28,7 @@
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1480-running-sum-of-1d-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1480-running-sum-of-1d-array) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/kushagra1007/Leetcode-break/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
@@ -504,6 +505,7 @@
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 ## Union-Find
 |  |
@@ -511,6 +513,7 @@
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/kushagra1007/Leetcode-break/tree/master/0684-redundant-connection) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/kushagra1007/Leetcode-break/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
@@ -531,4 +534,20 @@
 | ------- |
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
