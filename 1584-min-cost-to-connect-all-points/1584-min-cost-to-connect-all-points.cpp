@@ -1,27 +1,31 @@
 class Solution {
 public:
+    int manDis(vector<vector<int>>& points,int p1,int p2){
+        return abs(points[p1][0] - points[p2][0]) + abs(points[p1][1] - points[p2][1]);
+    }
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
-        vector<int> dist(n,INT_MAX);
-        vector<bool> visited(n,false);
-        dist[0] = 0;
-        int ans = 0;
-        for(int i = 0 ; i<n ; i++){
-            int u = -1;
-            for(int j = 0; j<n;j++){
-                if(!visited[j] && (u == -1 || dist[j] < dist[u])){
-                    u = j;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>> > pq;
+        vector<bool> mstSet(n,false);
+        int mstCost = 0;
+        pq.push({0,0});
+
+        while(pq.size() > 0){
+            auto p = pq.top();
+            pq.pop();
+            int wt = p.first;
+            int node = p.second;
+            if(mstSet[node] == true) continue;
+
+            mstSet[node] = true;
+            mstCost += wt;
+            for(int i=0;i<n;i++){
+                if(!mstSet[i]){
+                    int edgeWt = manDis(points,node,i);
+                    pq.push({edgeWt,i});
                 }
             }
-            visited[u] = true;
-            ans += dist[u];
-            for(int v = 0; v<n ; v++){
-                if(!visited[v]){
-                    int cost = abs(points[u][0] - points[v][0]) + abs(points[u][1] - points[v][1]);
-                    dist[v] = min(dist[v],cost);
-                }
-            }
-        }
-        return ans;
+        }    
+        return mstCost;
     }
 };
