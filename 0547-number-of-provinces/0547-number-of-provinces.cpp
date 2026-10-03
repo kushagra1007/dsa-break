@@ -1,23 +1,47 @@
 class Solution {
 public:
-    void dfs(int i,vector<vector<int>> &adj,vector<bool> &vis){
-        vis[i] = true;
-        for(int j = 0; j<adj[i].size();j++){
-            if(adj[i][j] == 1 && !vis[j]){
-                dfs(j,adj,vis);
-            }
+    vector<int> parent, rank;
+    int find(int x) {
+        if (parent[x] == x)
+            return x;
+        return parent[x] = find(parent[x]);
+    }
+    void unite(int x, int y) {
+        int px = find(x);
+        int py = find(y);
+        if (px == py)
+            return;
+
+        if (rank[px] < rank[py]) {
+            parent[px] = py;
+        }
+        else if (rank[px] > rank[py]) {
+            parent[py] = px;
+        }
+        else {
+            parent[py] = px;
+            rank[px]++;
         }
     }
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int noOfProvinces = 0;
         int n = isConnected.size();
-        vector<bool> vis(n,false);
-        for(int i =0;i<n;i++){
-            if(!vis[i]){
-                dfs(i, isConnected, vis);
-                noOfProvinces++;
+        parent.resize(n);
+        rank.resize(n, 0);
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (isConnected[i][j] == 1) {
+                    unite(i, j);
+                }
             }
         }
-        return noOfProvinces;
+        int provinces = 0;
+        for (int i = 0; i < n; i++) {
+            if (find(i) == i)
+                provinces++;
+        }
+        return provinces;
     }
 };
