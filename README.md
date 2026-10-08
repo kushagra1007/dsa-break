@@ -212,6 +212,7 @@
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Brainteaser
 |  |
 | ------- |
@@ -534,6 +535,7 @@
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Union-Find
 |  |
 | ------- |
@@ -552,6 +554,7 @@
 | [0207-course-schedule](https://github.com/kushagra1007/Leetcode-break/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0310-minimum-height-trees) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
@@ -562,12 +565,14 @@
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
