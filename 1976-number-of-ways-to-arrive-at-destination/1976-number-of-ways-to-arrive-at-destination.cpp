@@ -3,40 +3,43 @@ public:
     int countPaths(int n, vector<vector<int>>& roads) {
         const long long MOD = 1e9 + 7;
 
-        vector<vector<pair<int,int>>> adj(n);
+        vector<vector<pair<int, int>>> adj(n);
 
-        for (auto &r : roads) {
-            adj[r[0]].push_back({r[1], r[2]});
-            adj[r[1]].push_back({r[0], r[2]});
+        for (auto &road : roads) {
+            int u = road[0];
+            int v = road[1];
+            int wt = road[2];
+
+            adj[u].push_back({v, wt});
+            adj[v].push_back({u, wt});
         }
 
         vector<long long> dist(n, LLONG_MAX);
         vector<long long> ways(n, 0);
 
-        set<pair<long long,int>> st;
+        priority_queue<pair<long long, int>,vector<pair<long long, int>>,greater<pair<long long, int>>> pq;
 
         dist[0] = 0;
         ways[0] = 1;
 
-        st.insert({0, 0});
+        pq.push({0, 0});
 
-        while (!st.empty()) {
-            auto [d, u] = *st.begin();
-            st.erase(st.begin());
+        while (!pq.empty()) {
+            auto [d, u] = pq.top();
+            pq.pop();
+
+            if (d > dist[u])
+                continue;
 
             for (auto [v, wt] : adj[u]) {
-                long long nd = d + wt;
+                long long newDist = d + wt;
 
-                if (nd < dist[v]) {
-                    if (dist[v] != LLONG_MAX)
-                        st.erase({dist[v], v});
-
-                    dist[v] = nd;
+                if (newDist < dist[v]) {
+                    dist[v] = newDist;
                     ways[v] = ways[u];
-
-                    st.insert({dist[v], v});
+                    pq.push({newDist, v});
                 }
-                else if (nd == dist[v]) {
+                else if (newDist == dist[v]) {
                     ways[v] = (ways[v] + ways[u]) % MOD;
                 }
             }
