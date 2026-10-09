@@ -28,8 +28,7 @@ public:
             auto [d, u] = pq.top();
             pq.pop();
 
-            if (d > dist[u])
-                continue;
+            
 
             for (auto [v, wt] : adj[u]) {
                 long long newDist = d + wt;
