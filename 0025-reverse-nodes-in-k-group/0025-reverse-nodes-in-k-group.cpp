@@ -8,26 +8,33 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* temp = head;
-
-        for (int i = 0; i < k; i++) {
-            if (temp == nullptr)
+        int cnt = 0;
+        // check if k nodes exist
+        while(cnt<k){
+            if(temp == NULL){
                 return head;
+            }
             temp = temp->next;
+            cnt++;
         }
-        ListNode* prev = reverseKGroup(temp, k);
+        // recursively call for rest ll
+        ListNode* prevNode = reverseKGroup(temp,k);
+
+        // reverse current group
         temp = head;
-        for (int i = 0; i < k; i++) {
+        cnt = 0;
+        while(cnt<k){
             ListNode* next = temp->next;
-            temp->next = prev;
-            prev = temp;
+            temp->next = prevNode;
+
+            prevNode = temp;
             temp = next;
+            cnt++;
         }
-        return prev;
+        return prevNode;
     }
 };
-
