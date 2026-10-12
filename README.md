@@ -20,6 +20,7 @@
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
@@ -207,6 +208,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
+| [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
@@ -629,4 +631,12 @@
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/kushagra1007/Leetcode-break/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/kushagra1007/Leetcode-break/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
