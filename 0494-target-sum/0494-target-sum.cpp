@@ -1,28 +1,33 @@
 class Solution {
 public:
-    int solve(vector<int> &nums, int target, int i, int currSum,unordered_map<string, int> &mp){
-        if(i == nums.size()){
-            if(currSum == target){
-                return 1;
-            } else{
-                return 0;
-            }
-        }
-        string key = to_string(i) + "_" + to_string(currSum);
+    int S;
 
-
-        if(mp.count(key)){     //mp.find(key) != mp.end()]
-            return mp[key];
+    int solve(vector<int>& nums, int target, int i, int currSum, vector<vector<int>>& dp) {
+        if (i == nums.size()) {
+            return currSum == target;
         }
 
-        int plus = solve(nums , target , i+1 , currSum + nums[i] , mp);
-        int minus = solve(nums , target , i+1 , currSum - nums[i] , mp);
+        if (dp[i][currSum + S] != -1) {
+            return dp[i][currSum + S];
+        }
 
-        return mp[key] = plus + minus;
+        int plus = solve(nums, target, i + 1, currSum + nums[i], dp);
+        int minus = solve(nums, target, i + 1, currSum - nums[i], dp);
+
+        return dp[i][currSum + S] = plus + minus;
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
-        unordered_map<string, int>mp;
-       return solve(nums,target,0,0,mp); 
+        S = 0;
+
+        for (int i = 0; i < nums.size(); i++) {
+            S += nums[i];
+        }
+
+        if (abs(target) > S) return 0;
+
+        vector<vector<int>> dp(nums.size(), vector<int>(2 * S + 1, -1));
+
+        return solve(nums, target, 0, 0, dp);
     }
 };
