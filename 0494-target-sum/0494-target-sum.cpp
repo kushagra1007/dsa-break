@@ -18,11 +18,7 @@ public:
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
-        S = 0;
-
-        for (int i = 0; i < nums.size(); i++) {
-            S += nums[i];
-        }
+        S = accumulate(nums.begin(), nums.end(), 0);
 
         if (abs(target) > S) return 0;
 
