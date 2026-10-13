@@ -1,29 +1,29 @@
 class Solution {
 public:
-    int S;
-
-    int solve(vector<int>& nums, int target, int i, int currSum, vector<vector<int>>& dp) {
-        if (i == nums.size()) {
-            return currSum == target;
-        }
-
-        if (dp[i][currSum + S] != -1) {
-            return dp[i][currSum + S];
-        }
-
-        int plus = solve(nums, target, i + 1, currSum + nums[i], dp);
-        int minus = solve(nums, target, i + 1, currSum - nums[i], dp);
-
-        return dp[i][currSum + S] = plus + minus;
-    }
-
     int findTargetSumWays(vector<int>& nums, int target) {
-        S = accumulate(nums.begin(), nums.end(), 0);
+        int S = 0;
+
+        for (int i = 0; i < nums.size(); i++) {
+            S += nums[i];
+        }
 
         if (abs(target) > S) return 0;
 
-        vector<vector<int>> dp(nums.size(), vector<int>(2 * S + 1, -1));
+        int n = nums.size();
 
-        return solve(nums, target, 0, 0, dp);
+        vector<vector<int>> dp(n + 1, vector<int>(2 * S + 1, 0));
+
+        dp[0][S] = 1;
+
+        for (int i = 0; i < n; i++) {
+            for (int currSum = -S; currSum <= S; currSum++) {
+                if (dp[i][currSum + S] != 0) {
+                    dp[i + 1][currSum + nums[i] + S] += dp[i][currSum + S];
+                    dp[i + 1][currSum - nums[i] + S] += dp[i][currSum + S];
+                }
+            }
+        }
+
+        return dp[n][target + S];
     }
 };
