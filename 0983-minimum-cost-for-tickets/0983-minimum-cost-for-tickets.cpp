@@ -1,28 +1,23 @@
 class Solution {
 public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
-        unordered_set<int> st(begin(days), end(days));
+        int n = days.size();
+        vector<int> t(n + 1, 0);
 
-        int last_day = days.back();
+        for (int i = n - 1; i >= 0; i--) {
+            int j = i;
+            while (j < n && days[j] < days[i] + 7) j++;
+            int cost7 = costs[1] + t[j];
 
-        vector<int> t(last_day+1,0);
-        t[0] = 0;
+            j = i;
+            while (j < n && days[j] < days[i] + 30) j++;
+            int cost30 = costs[2] + t[j];
 
-        for(int i = 1; i <= last_day; i++){
-            if(st.find(i) == st.end()){
-                t[i] = t[i-1];
-                continue;
-            }
-            t[i] = INT_MAX;
+            int cost1 = costs[0] + t[i + 1];
 
-            int day_1_pass = costs[0] + t[max(i-1,0)];
-
-            int day_7_pass = costs[1] + t[max(i-7,0)];
-
-            int day_30_pass = costs[2] + t[max(i-30,0)];
-
-            t[i] = min({day_1_pass,day_7_pass,day_30_pass});
+            t[i] = min({cost1, cost7, cost30});
         }
-        return t[last_day];
+
+        return t[0];
     }
 };
