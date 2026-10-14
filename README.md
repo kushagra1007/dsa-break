@@ -28,6 +28,7 @@
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
+| [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
@@ -213,6 +214,7 @@
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
