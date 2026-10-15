@@ -19,6 +19,7 @@
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
@@ -124,6 +125,7 @@
 | [0210-course-schedule-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0310-minimum-height-trees) |
+| [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0449-serialize-and-deserialize-bst](https://github.com/kushagra1007/Leetcode-break/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/kushagra1007/Leetcode-break/tree/master/0513-find-bottom-left-tree-value) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
@@ -211,6 +213,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
+| [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
@@ -641,6 +644,7 @@
 ## Knapsack Problem
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
@@ -652,5 +656,6 @@
 ## Complete Knapsack
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
 <!---LeetCode Topics End-->
