@@ -221,6 +221,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
+| [1143-longest-common-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/1143-longest-common-subsequence) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -274,6 +275,7 @@
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/kushagra1007/Leetcode-break/tree/master/0449-serialize-and-deserialize-bst) |
+| [1143-longest-common-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/1143-longest-common-subsequence) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -658,4 +660,8 @@
 | ------- |
 | [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
