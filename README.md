@@ -212,6 +212,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
@@ -275,6 +276,7 @@
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/kushagra1007/Leetcode-break/tree/master/0449-serialize-and-deserialize-bst) |
