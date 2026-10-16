@@ -1,44 +1,33 @@
 class Solution {
 public:
+    void heapify(vector<int>& nums, int n, int i) {
+        int largest = i;
+        int left = 2 * i + 1;
+        int right = 2 * i + 2;
 
-    void merge(vector<int> &arr,int st,int mid,int end){
-        vector<int>temp;
-        int i = st;
-        int j = mid+1;
+        if (left < n && nums[left] > nums[largest])
+            largest = left;
 
-        while(i<=mid && j<= end){
-            if(arr[i]<=arr[j]){
-                temp.push_back(arr[i]);
-                i++;
-            }
-            else{
-                temp.push_back(arr[j]);
-                j++;
-            }
-        }
-        while(i<=mid){
-            temp.push_back(arr[i]);
-            i++;
-        }
-        while(j<=mid){
-            temp.push_back(arr[j]);
-            j++;
-        }
-        for(int idx=0;idx<temp.size();idx++){
-            arr[idx+st] = temp[idx];
+        if (right < n && nums[right] > nums[largest])
+            largest = right;
+
+        if (largest != i) {
+            swap(nums[i], nums[largest]);
+            heapify(nums, n, largest);
         }
     }
-    void mergeSort(vector<int> &arr,int st,int end){
-        if(st<end){
-            int mid = st+(end-st)/2;
-            mergeSort(arr,st,mid);//left half
-            mergeSort(arr,mid+1,end);// right half
 
-            merge(arr,st,mid,end);
+    vector<int> sortArray(vector<int>& nums) {
+        int n = nums.size();
+
+        for (int i = n / 2 - 1; i >= 0; i--)
+            heapify(nums, n, i);
+
+        for (int i = n - 1; i > 0; i--) {
+            swap(nums[0], nums[i]);
+            heapify(nums, i, 0);
         }
-    }
-    vector<int> sortArray(vector<int>& arr) {
-        mergeSort(arr,0,arr.size()-1);
-        return arr;
+
+        return nums;
     }
 };
