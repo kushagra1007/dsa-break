@@ -18,6 +18,7 @@
 | [0130-surrounded-regions](https://github.com/kushagra1007/Leetcode-break/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
+| [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
@@ -161,6 +162,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0004-median-of-two-sorted-arrays) |
+| [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -216,6 +218,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
+| [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
@@ -678,4 +681,8 @@
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
