@@ -7,25 +7,16 @@ public:
         sort(cuboids.begin(), cuboids.end());
 
         int n = cuboids.size();
-        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        vector<int> dp(n);
 
-        for (int curr = n - 1; curr >= 0; curr--) {
-            for (int prev = curr - 1; prev >= -1; prev--) {
-                int include = 0;
-
-                if (prev == -1 ||
-                    (cuboids[curr][0] >= cuboids[prev][0] &&
-                     cuboids[curr][1] >= cuboids[prev][1] &&
-                     cuboids[curr][2] >= cuboids[prev][2])) {
-                    include = cuboids[curr][2] + dp[curr + 1][curr + 1];
+        for(int i = 0; i < n; i++){
+            dp[i] = cuboids[i][2];
+            for(int j = 0; j < i; j++){
+                if(cuboids[i][0] >= cuboids[j][0] && cuboids[i][1] >= cuboids[j][1] && cuboids[i][2] >= cuboids[j][2]){
+                    dp[i] = max(dp[i], dp[j] + cuboids[i][2]);
                 }
-
-                int exclude = dp[curr + 1][prev + 1];
-
-                dp[curr][prev + 1] = max(include, exclude);
             }
         }
-
-        return dp[0][0];
+        return *max_element(dp.begin(), dp.end());
     }
 };
