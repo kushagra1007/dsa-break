@@ -1,40 +1,45 @@
 class Solution {
 public:
-    vector<vector<string>> result;
-    vector<string> current;
+    vector<vector<string>> ans;
+    vector<string> path;
+    vector<vector<int>> dp;
 
-    bool isPalindrome(const string& s, int left, int right) {
-        while (left < right) {
-            if (s[left] != s[right]) return false;
-            left++;
-            right--;
-        }
-        return true;
+    bool isPalindrome(string &s, int i, int j) {
+        if (i >= j)
+            return true;
+
+        if (dp[i][j] != -1)
+            return dp[i][j];
+
+        if (s[i] != s[j])
+            return dp[i][j] = 0;
+
+        return dp[i][j] = isPalindrome(s, i + 1, j - 1);
     }
 
-    void backtrack(string& s, int start) {
-        // Base case: reached end of string, current partition is complete
-        if (start == s.length()) {
-            result.push_back(current);
+    void solve(string &s, int index) {
+        if (index == s.size()) {
+            ans.push_back(path);
             return;
         }
 
-        for (int end = start; end < s.length(); end++) {
-            if (isPalindrome(s, start, end)) {
-                // choose
-                current.push_back(s.substr(start, end - start + 1));
+        for (int i = index; i < s.size(); i++) {
+            if (isPalindrome(s, index, i)) {
+                path.push_back(s.substr(index, i - index + 1));
 
-                // explore
-                backtrack(s, end + 1);
+                solve(s, i + 1);
 
-                // un-choose (backtrack)
-                current.pop_back();
+                path.pop_back();
             }
         }
     }
 
     vector<vector<string>> partition(string s) {
-        backtrack(s, 0);
-        return result;
+        int n = s.size();
+        dp.assign(n, vector<int>(n, -1));
+
+        solve(s, 0);
+
+        return ans;
     }
 };
