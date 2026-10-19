@@ -205,6 +205,7 @@
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kushagra1007/Leetcode-break/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
+| [2235-add-two-integers](https://github.com/kushagra1007/Leetcode-break/tree/master/2235-add-two-integers) |
 ## Sorting
 |  |
 | ------- |
