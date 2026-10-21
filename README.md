@@ -28,6 +28,7 @@
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
+| [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -230,6 +231,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
+| [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
@@ -693,4 +695,8 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
+## Memoization
+|  |
+| ------- |
+| [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
 <!---LeetCode Topics End-->
