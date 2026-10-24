@@ -1,7 +1,6 @@
 class Solution {
 public:
     int n;
-    unordered_map<int, int> mp;
     vector<vector<int>> dp;
 
     int solve(vector<int>& stones, int curr_stone_idx, int prevJump) {
@@ -19,8 +18,11 @@ public:
             if (nextJump > 0) {
                 int next_stone = stones[curr_stone_idx] + nextJump;
 
-                if (mp.find(next_stone) != mp.end()) {
-                    result = result || solve(stones, mp[next_stone], nextJump);
+                for (int i = curr_stone_idx + 1; i < n; i++) {
+                    if (stones[i] == next_stone) {
+                        result = result || solve(stones, i, nextJump);
+                        break;
+                    }
                 }
             }
         }
@@ -33,12 +35,6 @@ public:
 
         if (n < 2 || stones[1] != 1) {
             return false;
-        }
-
-        mp.clear();
-
-        for (int i = 0; i < n; i++) {
-            mp[stones[i]] = i;
         }
 
         dp.assign(n, vector<int>(n + 1, -1));
