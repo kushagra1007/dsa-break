@@ -25,6 +25,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0403-frog-jump](https://github.com/kushagra1007/Leetcode-break/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
@@ -233,6 +234,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kushagra1007/Leetcode-break/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/kushagra1007/Leetcode-break/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
