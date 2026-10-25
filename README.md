@@ -14,6 +14,7 @@
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0118-pascals-triangle](https://github.com/kushagra1007/Leetcode-break/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/kushagra1007/Leetcode-break/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
@@ -226,6 +227,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
+| [0118-pascals-triangle](https://github.com/kushagra1007/Leetcode-break/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
