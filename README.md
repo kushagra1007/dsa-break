@@ -227,6 +227,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/kushagra1007/Leetcode-break/tree/master/0118-pascals-triangle) |
@@ -285,6 +286,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0040-combination-sum-ii) |
@@ -304,6 +306,7 @@
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -717,4 +720,8 @@
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
 | [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
