@@ -1,26 +1,27 @@
 class Solution {
 public:
-    vector<string> solve(int n, int open, int close) {
-        if (open == n && close == n) {
-            return {""};
-        }
-        vector<string> ans;
-
-        if (open < n) {
-            vector<string> temp = solve(n, open + 1, close);
-            for (string s : temp) {
-                ans.push_back("(" + s);
-            }
-        }
-        if (close < open) {
-            vector<string> temp = solve(n, open, close + 1);
-            for (string s : temp) {
-                ans.push_back(")" + s);
-            }
-        }
-        return ans;
-    }
     vector<string> generateParenthesis(int n) {
-        return solve(n, 0, 0);
+        vector<vector<vector<string>>> dp(n + 1, vector<vector<string>>(n + 1));
+        dp[n][n] = {""};
+
+        for (int open = n; open >= 0; open--) {
+            for (int close = open; close >= 0; close--) {
+                if (open == n && close == n)
+                    continue;   
+                vector<string> ans;
+                if (open < n) {
+                    for (string s : dp[open + 1][close]) {
+                        ans.push_back("(" + s);
+                    }
+                }
+                if (close < open) {
+                    for (string s : dp[open][close + 1]) {
+                        ans.push_back(")" + s);
+                    }
+                }
+                dp[open][close] = ans;
+            }
+        }
+        return dp[0][0];
     }
 };
