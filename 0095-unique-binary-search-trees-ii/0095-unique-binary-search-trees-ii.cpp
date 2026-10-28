@@ -1,27 +1,22 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
-    vector<TreeNode*> solve(int start, int end){
-        vector<TreeNode*> result;
-        if(start > end){
+    map<pair<int, int>, vector<TreeNode*>> dp;
+
+    vector<TreeNode*> solve(int start, int end) {
+        if (start > end) {
             return {NULL};
         }
-        if(start == end){
-            TreeNode* root = new TreeNode(start);
+
+        if (dp.find({start, end}) != dp.end()) {
+            return dp[{start, end}];
         }
-        for(int i = start; i <= end; i++){
+
+        vector<TreeNode*> result;
+
+        for (int i = start; i <= end; i++) {
             vector<TreeNode*> left_bsts = solve(start, i - 1);
             vector<TreeNode*> right_bsts = solve(i + 1, end);
+
             for (TreeNode* leftRoot : left_bsts) {
                 for (TreeNode* rightRoot : right_bsts) {
                     TreeNode* root = new TreeNode(i);
@@ -33,9 +28,12 @@ public:
                 }
             }
         }
-        return result;
+
+        return dp[{start, end}] = result;
     }
+
     vector<TreeNode*> generateTrees(int n) {
+        dp.clear();
         return solve(1, n);
     }
 };
