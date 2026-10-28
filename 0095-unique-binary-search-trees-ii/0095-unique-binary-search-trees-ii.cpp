@@ -6,6 +6,10 @@ public:
         if (start > end) {
             return {NULL};
         }
+        if (start == end) {
+            TreeNode* root = new TreeNode(start);
+            return {root};
+        }
 
         if (dp.find({start, end}) != dp.end()) {
             return dp[{start, end}];
