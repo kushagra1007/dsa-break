@@ -231,6 +231,7 @@
 | [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
+| [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/kushagra1007/Leetcode-break/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kushagra1007/Leetcode-break/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -297,6 +298,7 @@
 | [0052-n-queens-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
+| [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 ## Bit Manipulation
@@ -453,6 +455,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0099-recover-binary-search-tree) |
@@ -493,6 +496,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0099-recover-binary-search-tree) |
@@ -531,6 +535,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0099-recover-binary-search-tree) |
