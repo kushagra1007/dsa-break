@@ -1,27 +1,17 @@
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
-        vector<vector<vector<string>>> dp(n + 1, vector<vector<string>>(n + 1));
-        dp[n][n] = {""};
-
-        for (int open = n; open >= 0; open--) {
-            for (int close = open; close >= 0; close--) {
-                if (open == n && close == n)
-                    continue;   
-                vector<string> ans;
-                if (open < n) {
-                    for (string s : dp[open + 1][close]) {
-                        ans.push_back("(" + s);
+        vector<vector<string>> dp(n+1);
+        dp[0] = {""};
+        for(int i = 1; i <= n; i++){
+            for(int j = 0; j < i; j++){
+                for(string left : dp[j]){
+                    for(string right : dp[i-j-1]){
+                        dp[i].push_back("(" + left + ")" + right);
                     }
                 }
-                if (close < open) {
-                    for (string s : dp[open][close + 1]) {
-                        ans.push_back(")" + s);
-                    }
-                }
-                dp[open][close] = ans;
             }
         }
-        return dp[0][0];
+        return dp[n];
     }
 };
