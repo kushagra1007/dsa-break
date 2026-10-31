@@ -11,30 +11,35 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode* temp = head;
-        int cnt = 0;
-        // check if k nodes exist
-        while(cnt<k){
-            if(temp == NULL){
-                return head;
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+
+        ListNode* groupPrev = dummy;
+
+        while (true) {
+            ListNode* kth = groupPrev;
+
+            for (int i = 0; i < k; i++) {
+                kth = kth->next;
+                if (kth == nullptr) {
+                    return dummy->next;
+                }
             }
-            temp = temp->next;
-            cnt++;
-        }
-        // recursively call for rest ll
-        ListNode* prevNode = reverseKGroup(temp,k);
 
-        // reverse current group
-        temp = head;
-        cnt = 0;
-        while(cnt<k){
-            ListNode* next = temp->next;
-            temp->next = prevNode;
+            ListNode* groupNext = kth->next;
+            ListNode* prev = groupNext;
+            ListNode* curr = groupPrev->next;
 
-            prevNode = temp;
-            temp = next;
-            cnt++;
+            while (curr != groupNext) {
+                ListNode* temp = curr->next;
+                curr->next = prev;
+                prev = curr;
+                curr = temp;
+            }
+
+            ListNode* temp = groupPrev->next;
+            groupPrev->next = kth;
+            groupPrev = temp;
         }
-        return prevNode;
     }
 };
