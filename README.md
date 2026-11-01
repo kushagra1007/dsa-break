@@ -8,6 +8,7 @@
 | [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/kushagra1007/Leetcode-break/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/kushagra1007/Leetcode-break/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
@@ -87,6 +88,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0144-binary-tree-preorder-traversal) |
@@ -102,6 +104,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -231,6 +234,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
@@ -439,6 +443,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0160-intersection-of-two-linked-lists) |
