@@ -11,6 +11,7 @@
 | [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/kushagra1007/Leetcode-break/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/kushagra1007/Leetcode-break/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -184,6 +185,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -235,6 +237,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0095-unique-binary-search-trees-ii) |
