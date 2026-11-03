@@ -1,93 +1,49 @@
 class Solution {
 public:
-    int m, n;
+    int n, m;
+    int dx[4] = {-1, 1, 0, 0};
+    int dy[4] = {0, 0, -1, 1};
 
-    void bfs(vector<vector<int>>& grid, int i, int j,vector<vector<bool>>& vis) {
-
-        queue<pair<int, int>> q;
-        q.push({i, j});
+    void dfs(int i, int j, vector<vector<int>>& grid, vector<vector<bool>>& vis) {
         vis[i][j] = true;
 
-        while (!q.empty()) {
+        for (int k = 0; k < 4; k++) {
+            int x = i + dx[k];
+            int y = j + dy[k];
 
-            int r = q.front().first;
-            int c = q.front().second;
-            q.pop();
-
-            if (r + 1 < m &&
-                grid[r + 1][c] == 1 &&
-                !vis[r + 1][c]) {
-                vis[r + 1][c] = true;
-                q.push({r + 1, c});
-            }
-
-            if (r - 1 >= 0 &&
-                grid[r - 1][c] == 1 &&
-                !vis[r - 1][c]) {
-                vis[r - 1][c] = true;
-                q.push({r - 1, c});
-            }
-
-            if (c + 1 < n &&
-                grid[r][c + 1] == 1 &&
-                !vis[r][c + 1]) {
-                vis[r][c + 1] = true;
-                q.push({r, c + 1});
-            }
-
-            if (c - 1 >= 0 &&
-                grid[r][c - 1] == 1 &&
-                !vis[r][c - 1]) {
-                vis[r][c - 1] = true;
-                q.push({r, c - 1});
+            if (x >= 0 && x < n && y >= 0 && y < m &&
+                grid[x][y] == 1 && !vis[x][y]) {
+                dfs(x, y, grid, vis);
             }
         }
     }
 
-    int numberOfIslands(vector<vector<int>>& grid) {
-
-        int islands = 0;
-
-        vector<vector<bool>> vis(m, vector<bool>(n));
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-
+    int countIslands(vector<vector<int>>& grid) {
+        vector<vector<bool>> vis(n, vector<bool>(m, false));
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 if (grid[i][j] == 1 && !vis[i][j]) {
-
-                    islands++;
-                    bfs(grid, i, j, vis);
+                    dfs(i, j, grid, vis);
+                    count++;
                 }
             }
         }
-
-        return islands;
+        return count;
     }
 
     int minDays(vector<vector<int>>& grid) {
-
-        m = grid.size();
-        n = grid[0].size();
-
-        int islands = numberOfIslands(grid);
-
-        if (islands > 1 || islands == 0) {
+        n = grid.size();
+        m = grid[0].size();
+        if (countIslands(grid) != 1)
             return 0;
-        }
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 if (grid[i][j] == 1) {
-
                     grid[i][j] = 0;
-
-                    islands = numberOfIslands(grid);
-
-                    if (islands > 1 || islands == 0) {
+                    if (countIslands(grid) != 1)
                         return 1;
-                    }
-
                     grid[i][j] = 1;
                 }
             }
