@@ -1,103 +1,82 @@
-
 class Solution {
 public:
+int find(int x, vector<int>& parent) {
+    if (parent[x] == x)
+        return x;
 
-    vector<int> parent;
+    return parent[x] = find(parent[x], parent);
+}
 
-    int find(int x){
-        if(parent[x] == x)
-            return x;
+void merge(int a, int b, vector<int>& parent) {
+    a = find(a, parent);
+    b = find(b, parent);
 
-        return parent[x] = find(parent[x]);
+    if (a != b)
+        parent[a] = b;
+}
+
+int mst(int n, vector<vector<int>>& edges, int skip, int force) {
+
+    vector<int> parent(n);
+
+    for (int i = 0; i < n; i++)
+        parent[i] = i;
+
+    int sum = 0, count = 0;
+
+    if (force != -1) {
+        sum += edges[force][2];
+        merge(edges[force][0], edges[force][1], parent);
+        count++;
     }
 
-    void Union(int a,int b){
-        a = find(a);
-        b = find(b);
+    for (int i = 0; i < edges.size(); i++) {
 
-        if(a == b)
-            return;
+        if (i == skip || i == force)
+            continue;
 
-        parent[b] = a;
-    }
+        int u = edges[i][0];
+        int v = edges[i][1];
 
-    int kruskal(vector<vector<int>> &vec,int n,int skip_edge,int add_edge){
-
-        parent.resize(n);
-
-        for(int i = 0;i<n;i++){
-            parent[i] = i;
-        }
-
-        int sum = 0;
-        int count = 0;
-
-        if(add_edge != -1){
-
-            Union(vec[add_edge][0],vec[add_edge][1]);
-
-            sum += vec[add_edge][2];
+        if (find(u, parent) != find(v, parent)) {
+            merge(u, v, parent);
+            sum += edges[i][2];
             count++;
         }
-
-        for(int i = 0;i<vec.size();i++){
-
-            if(i == skip_edge)
-                continue;
-
-            int u = vec[i][0];
-            int v = vec[i][1];
-            int wt = vec[i][2];
-
-            int parent_u = find(u);
-            int parent_v = find(v);
-
-            if(parent_u != parent_v){
-
-                Union(u,v);
-
-                sum += wt;
-                count++;
-            }
-        }
-
-        if(count != n-1)
-            return INT_MAX;
-
-        return sum;
     }
 
-    vector<vector<int>> findCriticalAndPseudoCriticalEdges(
-        int n, vector<vector<int>>& edges) {
+    if (count != n - 1)
+        return INT_MAX;
 
-        for(int i = 0;i<edges.size();i++){
-            edges[i].push_back(i);
+    return sum;
+}
+
+vector<vector<int>> findCriticalAndPseudoCriticalEdges(
+    int n, vector<vector<int>>& edges) {
+
+    for (int i = 0; i < edges.size(); i++)
+        edges[i].push_back(i);
+
+    sort(edges.begin(), edges.end(),
+         [](vector<int>& a, vector<int>& b) {
+             return a[2] < b[2];
+         });
+
+    int original = mst(n, edges, -1, -1);
+
+    vector<int> critical, pseudo;
+
+    for (int i = 0; i < edges.size(); i++) {
+
+        if (mst(n, edges, i, -1) > original) {
+            critical.push_back(edges[i][3]);
         }
 
-        auto lambda = [](vector<int>& vec1,vector<int>& vec2){
-            return vec1[2] < vec2[2];
-        };
-
-        sort(begin(edges),end(edges),lambda);
-
-        int MST_WEIGHT = kruskal(edges,n,-1,-1);
-
-        vector<int> critical;
-        vector<int> pseudo_critical;
-
-        for(int i = 0;i<edges.size();i++){
-
-            if(kruskal(edges,n,i,-1) > MST_WEIGHT){
-
-                critical.push_back(edges[i][3]);
-
-            }
-            else if(kruskal(edges,n,-1,i) == MST_WEIGHT){
-
-                pseudo_critical.push_back(edges[i][3]);
-            }
+        else if (mst(n, edges, -1, i) == original) {
+            pseudo.push_back(edges[i][3]);
         }
-
-        return {critical,pseudo_critical};
     }
+
+    return {critical, pseudo};
+}
 };
