@@ -1,63 +1,37 @@
 class Solution {
 public:
-    int minCost(int maxTime, vector<vector<int>>& edges,
-                vector<int>& passingFees) {
-
+    int minCost(int maxTime, vector<vector<int>>& edges, vector<int>& passingFees) {
         int n = passingFees.size();
+        const int INF = 1e9;
 
-        vector<vector<pair<int, int>>> graph(n);
+        vector<vector<int>> dp(maxTime + 1, vector<int>(n, INF));
 
-        for (auto &e : edges) {
-            int u = e[0];
-            int v = e[1];
-            int t = e[2];
+        dp[0][0] = passingFees[0];
 
-            graph[u].push_back({v, t});
-            graph[v].push_back({u, t});
-        }
+        for (int t = 0; t <= maxTime; t++) {
+            for (auto &e : edges) {
+                int u = e[0];
+                int v = e[1];
+                int time = e[2];
 
-        vector<vector<int>> dist(
-            n, vector<int>(maxTime + 1, INT_MAX)
-        );
+                if (t + time <= maxTime) {
+                    if (dp[t][u] != INF) {
+                        dp[t + time][v] = min(dp[t + time][v],dp[t][u] + passingFees[v]);
+                    }
 
-        priority_queue<
-            tuple<int, int, int>,
-            vector<tuple<int, int, int>>,
-            greater<tuple<int, int, int>>
-        > pq;
-
-        dist[0][0] = passingFees[0];
-        pq.push({passingFees[0], 0, 0});
-
-        while (!pq.empty()) {
-
-            auto [cost, time, node] = pq.top();
-            pq.pop();
-
-            if (cost != dist[node][time])
-                continue;
-
-            if (node == n - 1)
-                return cost;
-
-            for (auto &[next, travelTime] : graph[node]) {
-
-                int newTime = time + travelTime;
-
-                if (newTime > maxTime)
-                    continue;
-
-                int newCost = cost + passingFees[next];
-
-                if (newCost < dist[next][newTime]) {
-
-                    dist[next][newTime] = newCost;
-
-                    pq.push({newCost, newTime, next});
+                    if (dp[t][v] != INF) {
+                        dp[t + time][u] = min(dp[t + time][u],dp[t][v] + passingFees[u]);
+                    }
                 }
             }
         }
 
-        return -1;
+        int ans = INF;
+
+        for (int t = 0; t <= maxTime; t++) {
+            ans = min(ans, dp[t][n - 1]);
+        }
+
+        return ans == INF ? -1 : ans;
     }
 };
