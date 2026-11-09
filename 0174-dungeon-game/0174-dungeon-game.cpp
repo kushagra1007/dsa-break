@@ -1,31 +1,34 @@
 class Solution {
 public:
-
-    int solve(int i, int j, vector<vector<int>>& grid, int m, int n, vector<vector<int>>& dp) {
-
-        if(i >= m || j >= n)
-            return INT_MAX;
-
-        if(i == m-1 && j == n-1)
-            return max(1, 1 - grid[i][j]);
-
-        if(dp[i][j] != -1)
-            return dp[i][j];
-
-        int down = solve(i + 1, j, grid, m, n, dp);
-        int right = solve(i, j + 1, grid, m, n, dp);
-
-        int mini = min(down, right);
-
-        return dp[i][j] = max(1, mini - grid[i][j]);
-    }
-
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
         int m = dungeon.size();
         int n = dungeon[0].size();
 
-        vector<vector<int>> dp(m, vector<int>(n, -1));
+        vector<vector<int>> dp(m, vector<int>(n, INT_MAX));
 
-        return solve(0, 0, dungeon, m, n, dp);
+        dp[m-1][n-1] = max(1, 1 - dungeon[m-1][n-1]);
+
+        for(int i = m-1; i >= 0; i--) {
+            for(int j = n-1; j >= 0; j--) {
+
+                if(i == m-1 && j == n-1)
+                    continue;
+
+                int down = INT_MAX;
+                int right = INT_MAX;
+
+                if(i+1 < m)
+                    down = dp[i+1][j];
+
+                if(j+1 < n)
+                    right = dp[i][j+1];
+
+                int mini = min(down, right);
+
+                dp[i][j] = max(1, mini - dungeon[i][j]);
+            }
+        }
+
+        return dp[0][0];
     }
 };
