@@ -193,6 +193,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Divide and Conquer
@@ -236,6 +237,7 @@
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
+| [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kushagra1007/Leetcode-break/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 | [2235-add-two-integers](https://github.com/kushagra1007/Leetcode-break/tree/master/2235-add-two-integers) |
@@ -286,6 +288,7 @@
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/kushagra1007/Leetcode-break/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
 | [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1143-longest-common-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/1143-longest-common-subsequence) |
