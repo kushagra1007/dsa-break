@@ -129,6 +129,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
@@ -253,6 +254,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/kushagra1007/Leetcode-break/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0063-unique-paths-ii) |
@@ -315,6 +317,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/kushagra1007/Leetcode-break/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/kushagra1007/Leetcode-break/tree/master/0050-powx-n) |
 | [0203-remove-linked-list-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
@@ -346,6 +349,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
