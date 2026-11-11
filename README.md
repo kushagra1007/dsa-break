@@ -56,6 +56,7 @@
 | [1559-detect-cycles-in-2d-grid](https://github.com/kushagra1007/Leetcode-break/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/kushagra1007/Leetcode-break/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/kushagra1007/Leetcode-break/tree/master/1691-maximum-height-by-stacking-cuboids) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
@@ -133,6 +134,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -195,6 +197,7 @@
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Divide and Conquer
 |  |
@@ -297,6 +300,7 @@
 | [1463-cherry-pickup-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/1463-cherry-pickup-ii) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagra1007/Leetcode-break/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/kushagra1007/Leetcode-break/tree/master/1691-maximum-height-by-stacking-cuboids) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
