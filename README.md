@@ -63,6 +63,7 @@
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
+| [3193-count-the-number-of-inversions](https://github.com/kushagra1007/Leetcode-break/tree/master/3193-count-the-number-of-inversions) |
 ## Queue
 |  |
 | ------- |
@@ -305,6 +306,7 @@
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/kushagra1007/Leetcode-break/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [3193-count-the-number-of-inversions](https://github.com/kushagra1007/Leetcode-break/tree/master/3193-count-the-number-of-inversions) |
 ## Brainteaser
 |  |
 | ------- |
