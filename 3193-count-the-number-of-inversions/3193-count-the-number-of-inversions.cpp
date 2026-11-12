@@ -1,54 +1,42 @@
 class Solution {
 public:
-    int numberOfPermutations(int n, vector<vector<int>>& requirements) {
-
-        int mod = 1e9 + 7;
-
-        vector<int> req(n, -1);
-
-        for(auto it : requirements) {
-            req[it[0]] = it[1];
+        const int MOD= 1e9+7;
+        int numberOfPermutations(int n, vector<vector<int>>& requirements) {
+        vector<int>req(n,-1);
+        int maxInv=0;
+        for(auto r: requirements){
+            req[r[0]]=r[1];
+            maxInv=max(maxInv,r[1]);
         }
-        int maxInv = n * (n - 1) / 2;
-
-        vector<int> dp(maxInv + 1, 0);
-
-        dp[0] = 1;
-
-        for(int len = 0; len < n; len++) {
-
-            vector<int> temp(maxInv + 1, 0);
-
-            int sum = 0;
-
-            for(int j = 0; j <= maxInv; j++) {
-
-                sum = (sum + dp[j]) % mod;
-
-                if(j - len - 1 >= 0) {
-                    sum = (sum - dp[j - len - 1] + mod) % mod;
-                }
-
-                temp[j] = sum;
+        vector<int>prev(maxInv+1,0);
+        prev[0]=1;
+        if(req[0]!=-1){
+            for(int inv=0;inv<=maxInv;inv++){
+                if(inv!=req[0])
+                prev[inv]=0;
             }
-
-            if(req[len] != -1) {
-                for(int j = 0; j <= maxInv; j++) {
-                    if(j != req[len]) {
-                        temp[j] = 0;
+        }
+        for(int i=1;i<n;i++){
+            vector<int>curr(maxInv+1,0);
+            long long sum=0;
+            for(int inv=0;inv<=maxInv;inv++){
+                sum=sum+prev[inv];
+                if(inv-i-1>=0){
+                    sum=sum-prev[inv-i-1];
+                }
+                sum=(sum+MOD)%MOD;
+                curr[inv]=sum;
+            }
+            if(req[i] != -1) {
+                for(int inv = 0; inv <= maxInv; inv++) {
+                    if(inv != req[i]){
+                        curr[inv] = 0;
                     }
                 }
             }
-
-            dp = temp;
+            prev=curr;
         }
-
-        int ans = 0;
-
-        for(int i = 0; i <= maxInv; i++) {
-            ans = (ans + dp[i]) % mod;
-        }
-
-        return ans;
+  
+        return prev[req[n-1]];
     }
 };
