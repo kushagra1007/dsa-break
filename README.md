@@ -35,6 +35,7 @@
 | [0322-coin-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0403-frog-jump](https://github.com/kushagra1007/Leetcode-break/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
@@ -182,6 +183,7 @@
 | [0130-surrounded-regions](https://github.com/kushagra1007/Leetcode-break/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/kushagra1007/Leetcode-break/tree/master/0174-dungeon-game) |
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/kushagra1007/Leetcode-break/tree/master/0741-cherry-pickup) |
@@ -197,6 +199,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -254,6 +257,7 @@
 | [0088-merge-sorted-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0088-merge-sorted-array) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
@@ -422,6 +426,7 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
