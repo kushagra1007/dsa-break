@@ -1,47 +1,42 @@
 class Solution {
 public:
     vector<int> smallestRange(vector<vector<int>>& nums) {
+        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> pq;
 
-        int k = nums.size();
+        int maxi = INT_MIN;
 
-        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
-        int maxEl = INT_MIN;
-
-        for (int i = 0; i < k; i++) {
-
-            pq.push({nums[i][0], i, 0});
-            maxEl = max(maxEl, nums[i][0]);
+        for (int i = 0; i < nums.size(); i++) {
+            pq.push({nums[i][0], {i, 0}});
+            maxi = max(maxi, nums[i][0]);
         }
-        vector<int> resultRange = {-1000000, 1000000};
 
-        while (!pq.empty()) {
+        int start = 0;
+        int end = INT_MAX;
 
-            vector<int> curr = pq.top();
+        while (true) {
+            auto curr = pq.top();
             pq.pop();
 
-            int minEl = curr[0];
-            int listIdx = curr[1];
-            int idx = curr[2];
+            int mini = curr.first;
+            int row = curr.second.first;
+            int col = curr.second.second;
 
-            if (maxEl - minEl < resultRange[1] - resultRange[0]) {
-
-                resultRange[0] = minEl;
-                resultRange[1] = maxEl;
+            if (maxi - mini < end - start) {
+                start = mini;
+                end = maxi;
             }
-            if (idx + 1 < nums[listIdx].size()) {
 
-                int nextElement = nums[listIdx][idx + 1];
-
-                pq.push({nextElement, listIdx, idx + 1});
-
-                maxEl = max(maxEl, nextElement);
-
-            } 
-            else {
+            if (col + 1 == nums[row].size()) {
                 break;
             }
+
+            int next = nums[row][col + 1];
+
+            maxi = max(maxi, next);
+
+            pq.push({next, {row, col + 1}});
         }
 
-        return resultRange;
+        return {start, end};
     }
 };
