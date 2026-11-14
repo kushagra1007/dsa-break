@@ -44,6 +44,7 @@
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
 | [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
@@ -139,6 +140,7 @@
 | [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 ## Breadth-First Search
@@ -262,6 +264,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagra1007/Leetcode-break/tree/master/1547-minimum-cost-to-cut-a-stick) |
@@ -431,6 +434,7 @@
 | [0295-find-median-from-data-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/kushagra1007/Leetcode-break/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -468,6 +472,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0160-intersection-of-two-linked-lists) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/kushagra1007/Leetcode-break/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
@@ -785,6 +790,7 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Rolling Hash
 |  |
