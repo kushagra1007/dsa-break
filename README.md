@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/kushagra1007/Leetcode-break/tree/master/0014-longest-common-prefix) |
 | [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0040-combination-sum-ii) |
@@ -372,6 +373,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/kushagra1007/Leetcode-break/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/kushagra1007/Leetcode-break/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/0072-edit-distance) |
@@ -826,4 +828,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/kushagra1007/Leetcode-break/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
