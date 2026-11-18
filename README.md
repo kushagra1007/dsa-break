@@ -40,6 +40,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0403-frog-jump](https://github.com/kushagra1007/Leetcode-break/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0416-partition-equal-subset-sum) |
+| [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0494-target-sum) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
@@ -143,6 +144,7 @@
 | [0044-wildcard-matching](https://github.com/kushagra1007/Leetcode-break/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
+| [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
@@ -266,6 +268,7 @@
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
@@ -524,6 +527,7 @@
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Floyd's Cycle Finding Algorithm
@@ -846,4 +850,8 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/kushagra1007/Leetcode-break/tree/master/0139-word-break) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
