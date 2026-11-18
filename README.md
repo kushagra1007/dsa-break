@@ -48,6 +48,7 @@
 | [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
 | [0706-design-hashmap](https://github.com/kushagra1007/Leetcode-break/tree/master/0706-design-hashmap) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
@@ -146,6 +147,7 @@
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 ## Breadth-First Search
@@ -271,6 +273,7 @@
 | [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagra1007/Leetcode-break/tree/master/1547-minimum-cost-to-cut-a-stick) |
@@ -311,6 +314,7 @@
 | [0518-coin-change-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0542-01-matrix) |
 | [0546-remove-boxes](https://github.com/kushagra1007/Leetcode-break/tree/master/0546-remove-boxes) |
+| [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/kushagra1007/Leetcode-break/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushagra1007/Leetcode-break/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -813,6 +817,7 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
+| [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
 ## Memoization
 |  |
 | ------- |
