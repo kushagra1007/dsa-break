@@ -57,6 +57,7 @@
 | [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/kushagra1007/Leetcode-break/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kushagra1007/Leetcode-break/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1463-cherry-pickup-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/1463-cherry-pickup-ii) |
 | [1480-running-sum-of-1d-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1480-running-sum-of-1d-array) |
@@ -213,6 +214,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagra1007/Leetcode-break/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kushagra1007/Leetcode-break/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -275,6 +277,7 @@
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kushagra1007/Leetcode-break/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagra1007/Leetcode-break/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/kushagra1007/Leetcode-break/tree/master/1691-maximum-height-by-stacking-cuboids) |
@@ -322,6 +325,7 @@
 | [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1143-longest-common-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/1143-longest-common-subsequence) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/kushagra1007/Leetcode-break/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kushagra1007/Leetcode-break/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1463-cherry-pickup-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/1463-cherry-pickup-ii) |
