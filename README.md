@@ -53,6 +53,7 @@
 | [0718-maximum-length-of-repeated-subarray](https://github.com/kushagra1007/Leetcode-break/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0733-flood-fill](https://github.com/kushagra1007/Leetcode-break/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/kushagra1007/Leetcode-break/tree/master/0741-cherry-pickup) |
+| [0860-lemonade-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0860-lemonade-change) |
 | [0912-sort-an-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0912-sort-an-array) |
 | [0983-minimum-cost-for-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/0983-minimum-cost-for-tickets) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
@@ -149,6 +150,7 @@
 | [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/kushagra1007/Leetcode-break/tree/master/0646-maximum-length-of-pair-chain) |
+| [0860-lemonade-change](https://github.com/kushagra1007/Leetcode-break/tree/master/0860-lemonade-change) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/kushagra1007/Leetcode-break/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 ## Breadth-First Search
