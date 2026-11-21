@@ -30,6 +30,7 @@
 | [0174-dungeon-game](https://github.com/kushagra1007/Leetcode-break/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/kushagra1007/Leetcode-break/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kushagra1007/Leetcode-break/tree/master/0312-burst-balloons) |
@@ -264,6 +265,7 @@
 | [0062-unique-paths](https://github.com/kushagra1007/Leetcode-break/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
 | [0507-perfect-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
@@ -876,4 +878,24 @@
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/kushagra1007/Leetcode-break/tree/master/0455-assign-cookies) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
