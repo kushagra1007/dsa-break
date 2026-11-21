@@ -264,6 +264,7 @@
 | [0062-unique-paths](https://github.com/kushagra1007/Leetcode-break/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
+| [0507-perfect-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
 | [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
