@@ -71,6 +71,7 @@
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/kushagra1007/Leetcode-break/tree/master/1691-maximum-height-by-stacking-cuboids) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
@@ -272,6 +273,7 @@
 | [0887-super-egg-drop](https://github.com/kushagra1007/Leetcode-break/tree/master/0887-super-egg-drop) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kushagra1007/Leetcode-break/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2235-add-two-integers](https://github.com/kushagra1007/Leetcode-break/tree/master/2235-add-two-integers) |
 ## Sorting
 |  |
@@ -886,6 +888,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Primality Test
 |  |
 | ------- |
@@ -898,4 +901,12 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
