@@ -416,6 +416,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/kushagra1007/Leetcode-break/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0516-longest-palindromic-subsequence) |
+| [0796-rotate-string](https://github.com/kushagra1007/Leetcode-break/tree/master/0796-rotate-string) |
 | [1143-longest-common-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/1143-longest-common-subsequence) |
 | [1903-largest-odd-number-in-string](https://github.com/kushagra1007/Leetcode-break/tree/master/1903-largest-odd-number-in-string) |
 ## Depth-First Search
@@ -689,6 +690,7 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/kushagra1007/Leetcode-break/tree/master/0796-rotate-string) |
 ## Binary Lifting
 |  |
 | ------- |
