@@ -1,24 +1,25 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        int n=s.length();
+        int n = s.length();
 
-        multiset<pair<int,char>,greater<pair<int,char>>>ms;
-        string result;
+        unordered_map<char, int> mp;
 
-        unordered_map<char,int>mp;
-
-        for(int i=0;i<n;i++){
+        for (int i = 0; i < n; i++) {
             mp[s[i]]++;
         }
-
-        for(auto it:mp){
-            ms.insert({it.second,it.first});
+        vector<vector<char>> bucket(n + 1);
+        for (auto it : mp) {
+            bucket[it.second].push_back(it.first);
         }
 
-        for(auto i:ms){
-            result+=string(i.first,i.second);
+        string result = "";
+        for (int i = n; i >= 1; i--) {
+            for (char ch : bucket[i]) {
+                result += string(i, ch);
+            }
         }
+
         return result;
     }
 };
