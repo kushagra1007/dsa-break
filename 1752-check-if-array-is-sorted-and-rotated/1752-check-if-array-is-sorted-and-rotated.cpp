@@ -1,13 +1,13 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        int n = nums.size();
-        for(int i = 0; i < n; i++){
-            rotate(nums.begin(), nums.begin() + 1, nums.end());
-            if(is_sorted(nums.begin(), nums.end())){
-                return true;
+        int count=0;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            if(nums[i]>nums[(i+1)%n]){
+                count++;
             }
         }
-        return false;
+        return count<=1;
     }
 };
