@@ -69,6 +69,7 @@
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagra1007/Leetcode-break/tree/master/1584-min-cost-to-connect-all-points) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/kushagra1007/Leetcode-break/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/kushagra1007/Leetcode-break/tree/master/1691-maximum-height-by-stacking-cuboids) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/kushagra1007/Leetcode-break/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/kushagra1007/Leetcode-break/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/kushagra1007/Leetcode-break/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
