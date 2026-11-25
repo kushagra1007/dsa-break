@@ -32,6 +32,7 @@
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/kushagra1007/Leetcode-break/tree/master/0217-contains-duplicate) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kushagra1007/Leetcode-break/tree/master/0312-burst-balloons) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -286,6 +287,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/kushagra1007/Leetcode-break/tree/master/0217-contains-duplicate) |
 | [0295-find-median-from-data-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
@@ -522,6 +524,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/kushagra1007/Leetcode-break/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/kushagra1007/Leetcode-break/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0451-sort-characters-by-frequency](https://github.com/kushagra1007/Leetcode-break/tree/master/0451-sort-characters-by-frequency) |
