@@ -28,6 +28,7 @@
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/kushagra1007/Leetcode-break/tree/master/0139-word-break) |
 | [0174-dungeon-game](https://github.com/kushagra1007/Leetcode-break/tree/master/0174-dungeon-game) |
+| [0189-rotate-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/kushagra1007/Leetcode-break/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/kushagra1007/Leetcode-break/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
@@ -274,6 +275,7 @@
 | [0062-unique-paths](https://github.com/kushagra1007/Leetcode-break/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kushagra1007/Leetcode-break/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
+| [0189-rotate-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
 | [0507-perfect-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
@@ -570,6 +572,7 @@
 | [0125-valid-palindrome](https://github.com/kushagra1007/Leetcode-break/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/kushagra1007/Leetcode-break/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/kushagra1007/Leetcode-break/tree/master/0344-reverse-string) |
