@@ -35,6 +35,7 @@
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/kushagra1007/Leetcode-break/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kushagra1007/Leetcode-break/tree/master/0312-burst-balloons) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -223,6 +224,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0004-median-of-two-sorted-arrays) |
+| [0268-missing-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagra1007/Leetcode-break/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/kushagra1007/Leetcode-break/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
@@ -278,6 +280,7 @@
 | [0096-unique-binary-search-trees](https://github.com/kushagra1007/Leetcode-break/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/kushagra1007/Leetcode-break/tree/master/0204-count-primes) |
+| [0268-missing-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0268-missing-number) |
 | [0507-perfect-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kushagra1007/Leetcode-break/tree/master/0628-maximum-product-of-three-numbers) |
@@ -292,6 +295,7 @@
 | ------- |
 | [0088-merge-sorted-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/kushagra1007/Leetcode-break/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/kushagra1007/Leetcode-break/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
@@ -408,6 +412,7 @@
 | ------- |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
+| [0268-missing-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0268-missing-number) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/kushagra1007/Leetcode-break/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kushagra1007/Leetcode-break/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## String
@@ -529,6 +534,7 @@
 | [0205-isomorphic-strings](https://github.com/kushagra1007/Leetcode-break/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/kushagra1007/Leetcode-break/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/kushagra1007/Leetcode-break/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/kushagra1007/Leetcode-break/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/kushagra1007/Leetcode-break/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0349-intersection-of-two-arrays) |
 | [0451-sort-characters-by-frequency](https://github.com/kushagra1007/Leetcode-break/tree/master/0451-sort-characters-by-frequency) |
