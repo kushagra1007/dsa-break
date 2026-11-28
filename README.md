@@ -6,6 +6,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagra1007/Leetcode-break/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/kushagra1007/Leetcode-break/tree/master/0014-longest-common-prefix) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0040-combination-sum-ii) |
@@ -566,6 +567,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/kushagra1007/Leetcode-break/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0061-rotate-list) |
 | [0088-merge-sorted-array](https://github.com/kushagra1007/Leetcode-break/tree/master/0088-merge-sorted-array) |
